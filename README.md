@@ -44,6 +44,14 @@ https://sunaneko.github.io/sunaneko-marp-theme/sample-slide.html
      https://raw.githubusercontent.com/[ユーザー名]/sunaneko-marp-slide/main/sunaneko-theme.css
      ```
    - **注意**: `[ユーザー名]` の部分を実際のGitHubユーザー名または組織名に置き換えてください
+   
+   **URLの変換方法**：
+   - GitHubのファイル表示ページのURL（blob形式）から変換できます
+   - 例：`https://github.com/suh-sunaneko/sunaneko-marp-slide/blob/main/sunaneko-theme.css`
+   - 変換方法：
+     - `github.com` を `raw.githubusercontent.com` に変更
+     - `/blob/` を削除
+   - 変換後：`https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/main/sunaneko-theme.css`
 
 4. **動作確認**
    - ダウンロードした`template-slide.md`を開いてプレビューし、同じデザインになればOKです！
