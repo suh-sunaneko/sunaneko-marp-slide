@@ -6,10 +6,12 @@
 
 ```
 以下のテキスト情報を基に、Marpスライドを作成してください。
-sample-slide.mdを参考にして、適切なレイアウトとクラスを使用してください。
+template-slide.mdを参考にして、適切なレイアウトとクラスを使用してください。
 
 **重要**: マークダウンの可読性を保つため、HTMLタグは極力使わず、マークダウン記法を優先してください。
 レイアウト変更は`<!-- _class: [クラス名] -->`のコメントで行い、HTMLとCSSを一緒に書かないでください。
+
+**必須**: スライドは必ず別ファイルとして作成してください。元のファイルを上書きせず、新しいファイル名（例: `[元のファイル名]_slide.md`）で作成してください。
 
 【テキスト情報】
 [ここにテキスト情報を貼り付けてください]
@@ -45,7 +47,7 @@ sample-slide.mdを参考にして、適切なレイアウトとクラスを使�
    - **重要**: CSSはスライド内に書かない。`sunaneko-theme.css`に既に定義されている（h1の改行防止も含む）
    - メインタイトル（h1）
    - サブタイトル（h2、必要に応じて）
-   - **ロゴ画像を必ず含める**: `![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/main/sunaneko_inversion_logo.png)`
+   - **ロゴ画像を必ず含める**: `![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/main/images/sunaneko_inversion_logo.png)`
    - 日付や執筆者情報は含めない（タイトルページはシンプルに）
 
 3. 目次ページ（アジェンダ）には以下を使用：
@@ -343,7 +345,8 @@ sample-slide.mdを参考にして、適切なレイアウトとクラスを使�
      - **レイアウト**: 通常は基本レイアウト（クラス指定なし）を使用。Ganttチャートは自動的に縦中央に配置される
 
 【出力形式】
-完全なMarpマークダウンファイルとして出力してください。
+- **必須**: スライドは必ず別ファイルとして作成してください。元のファイルを上書きせず、新しいファイル名（例: `[元のファイル名]_slide.md`）で作成してください。
+- 完全なMarpマークダウンファイルとして出力してください。
 ```
 
 ## レイアウト判定表（クイックリファレンス）
@@ -749,7 +752,7 @@ type User = {
    - **重要**: 8つ以上の場合、1-7を左カラム、8つ目からを右カラムに表示する
    - テーブル形式で目次を表示（例: `| 01 | アジェンダ名 |`）
 7. **タイトルページのデザイン**: 
-   - タイトルページには必ずロゴ画像を含める: `![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/mainsunaneko_inversion_logo.png)`
+   - タイトルページには必ずロゴ画像を含める: `![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/main/images/sunaneko_inversion_logo.png)`
    - タイトルページはシンプルに、日付や執筆者情報は含めない
    - **h1の改行防止**: タイトルスライドのh1の改行防止は`sunaneko-theme.css`に既に定義されているため、スライド内にCSSを追加する必要はない
 8. **最後のスライドのデザイン**: 
@@ -757,7 +760,7 @@ type User = {
      ```markdown
      <!-- _class: all-text-center align-center -->
      
-     ![w:450px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/mainsunaneko_logo.png)
+     ![w:450px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/main/images/sunaneko_logo.png)
      ```
 9. **セクションページのデザイン**: 
    - セクションタイトルは「セクション名 | 説明」の形式で記述: 例: `## 1. プロジェクト概要 | プロジェクトの基本情報`
@@ -844,7 +847,6 @@ type User = {
 
 ## 参考リンク
 
-- **sunaneko MarpテーマのTips**: [Marpのカスタムテーマを作成するときのTips](https://dev.sunaneko.jp/articles/sunaneko-marp-theme-tips/)
   - HTMLは極力書かなくてもいいようにする
   - デフォルトのテーマをimportする
   - `@auto-scaling true`を設定する
