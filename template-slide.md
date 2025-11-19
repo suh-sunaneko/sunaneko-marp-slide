@@ -191,36 +191,6 @@ console.log("Hello, World!");
 
 ---
 
-<!-- _class: all-text-red -->
-
-<!-- ↑ここをall-text-red, h1-text-red, h2-text-red, h3-text-red, h4-text-red, h5-text-red, h6-text-red, text-redに変更すると、それぞれの見出しレベルごとに赤色になります -->
-
-<!-- all-text-redに変更すると、スライド内のすべてのテキストが赤色になります -->
-
-# テキストの色変更（red）（all-text-red）
-<!-- タイトルは影響を受けません -->
-
-#  見出しレベル1のテキスト h1-text-red
-## 見出しレベル2のテキスト h2-text-red
-### 見出しレベル3のテキスト h3-text-red
-#### 見出しレベル4のテキスト h4-text-red
-##### 見出しレベル5のテキスト h5-text-red
-###### 見出しレベル6のテキスト h6-text-red
-通常のテキスト text-red
-
-
----
-
-<!-- _class: text-blue -->
-
-# テキストの色変更（blue）（text-blue）
-
-## 見出しは通常色のまま
-
-text-blueクラスを使用すると、段落テキストのみが青色になります。見出しは元の色を保持します。
-
----
-
 # コードブロック
 
 ```ts
@@ -345,7 +315,7 @@ gantt
 <div class="column">
 
 ## STEP1
-要件定義を行います
+### 要件定義を行います
 - ユーザー要件のヒアリング
 - 機能要件の整理
 - 非機能要件の確認
@@ -355,7 +325,7 @@ gantt
 <div class="column">
 
 ## STEP2
-設計・開発を実施します
+### 設計・開発を実施します
 - システム設計
 - コーディング
 - 単体テスト
@@ -371,7 +341,7 @@ gantt
 <div class="column">
 
 ## 計画フェーズ
-プロジェクトの全体像を設計
+### プロジェクトの全体像を設計
 - スコープ定義
 - リソース計画
 - スケジュール策定
@@ -381,7 +351,7 @@ gantt
 <div class="column">
 
 ## 実行フェーズ
-実際の開発作業を実施
+### 実際の開発作業を実施
 - アーキテクチャ設計
 - 実装
 - コードレビュー
@@ -391,52 +361,11 @@ gantt
 <div class="column">
 
 ## 検証フェーズ
-品質を確認・改善
+### 品質を確認・改善
 - テスト実施
 - バグ修正
 - リリース準備
 
-</div>
-
----
-
-<!-- _class: small-text -->
-
-# 文字を小さくする（small-text）
-
-`small-text` クラスを使用すると、スライド全体のフォントサイズが20%程度縮小されます。
-
-情報量が多いスライドや、通常のサイズでは収まりきらない内容を表示する際に便利です。
-
----
-
-# その他
-
-## 数式の表示
-$$
-\sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n
-$$
-
-
-## 折りたたみ
-<details>
-<summary>詳細を開く</summary>
-詳細内容をここに記載します
-</details>
-
-
-## カスタムCSSの適用
-<style>
-.highlight-box {
-    background-color: #e3f2fd;
-    border-left: 4px solid #2196f3;
-    padding: 16px;
-    margin: 16px 0;
-}
-</style>
-
-<div class="highlight-box">
-このスライド専用のカスタムスタイルを適用できます
 </div>
 
 ---
