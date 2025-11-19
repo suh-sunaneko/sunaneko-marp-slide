@@ -45,7 +45,7 @@ sample-slide.mdを参考にして、適切なレイアウトとクラスを使�
    - **重要**: CSSはスライド内に書かない。`sunaneko-theme.css`に既に定義されている（h1の改行防止も含む）
    - メインタイトル（h1）
    - サブタイトル（h2、必要に応じて）
-   - **ロゴ画像を必ず含める**: `![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/materials/main/sunaneko_inversion_logo.png)`
+   - **ロゴ画像を必ず含める**: `![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/main/sunaneko_inversion_logo.png)`
    - 日付や執筆者情報は含めない（タイトルページはシンプルに）
 
 3. 目次ページ（アジェンダ）には以下を使用：

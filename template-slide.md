@@ -19,7 +19,7 @@ description: サンプルスライドです。
 ## XX株式会社御中
 ### サブタイトル
 
-![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/materials/main/sunaneko_inversion_logo.png)
+![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/main/images/sunaneko_inversion_logo.png)
 
 ---
 
@@ -443,4 +443,4 @@ $$
 
 <!-- _class: all-text-center align-center -->
 
-![w:450px](https://raw.githubusercontent.com/suh-sunaneko/materials/main/sunaneko_logo.png)
+![w:450px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/main/images/sunaneko_logo.png)

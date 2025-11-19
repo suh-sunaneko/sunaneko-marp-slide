@@ -109,3 +109,30 @@ https://sunaneko.github.io/sunaneko-marp-theme/sample-slide.html
    - Cursorが生成したMarpスライドファイル（`.md`）を確認・編集します
    - Marp拡張機能でプレビューできます
 
+### ロゴ画像のリンクを取得する方法
+
+スライドでロゴ画像を使用する場合、GitHubのrawファイルURLを使用できます。
+
+1. **画像ファイルをGitHubリポジトリにアップロード**
+   - ロゴ画像ファイル（PNG、JPGなど）をGitHubリポジトリにアップロードします
+   - 例：`images/logo.png` というパスに配置
+
+2. **rawファイルURLを取得**
+   - GitHubで画像ファイルを開きます
+   - 「Raw」ボタンをクリックします
+   - ブラウザのアドレスバーに表示されるURLがrawファイルURLです
+   - URLの形式：
+     ```
+     https://raw.githubusercontent.com/[ユーザー名]/[リポジトリ名]/[ブランチ名]/[ファイルパス]
+     ```
+   - 例：
+     ```
+     https://raw.githubusercontent.com/[ユーザー名]/sunaneko-marp-slide/main/images/logo.png
+     ```
+
+3. **スライドで使用**
+   - 取得したURLをMarkdownの画像記法で使用します：
+     ```markdown
+     ![ロゴ w:400px](https://raw.githubusercontent.com/[ユーザー名]/[リポジトリ名]/main/images/logo.png)
+     ```
+
