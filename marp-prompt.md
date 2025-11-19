@@ -749,7 +749,7 @@ type User = {
    - **重要**: 8つ以上の場合、1-7を左カラム、8つ目からを右カラムに表示する
    - テーブル形式で目次を表示（例: `| 01 | アジェンダ名 |`）
 7. **タイトルページのデザイン**: 
-   - タイトルページには必ずロゴ画像を含める: `![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/materials/main/sunaneko_inversion_logo.png)`
+   - タイトルページには必ずロゴ画像を含める: `![sunaneko-logo w:400px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/mainsunaneko_inversion_logo.png)`
    - タイトルページはシンプルに、日付や執筆者情報は含めない
    - **h1の改行防止**: タイトルスライドのh1の改行防止は`sunaneko-theme.css`に既に定義されているため、スライド内にCSSを追加する必要はない
 8. **最後のスライドのデザイン**: 
@@ -757,7 +757,7 @@ type User = {
      ```markdown
      <!-- _class: all-text-center align-center -->
      
-     ![w:450px](https://raw.githubusercontent.com/suh-sunaneko/materials/main/sunaneko_logo.png)
+     ![w:450px](https://raw.githubusercontent.com/suh-sunaneko/sunaneko-marp-slide/mainsunaneko_logo.png)
      ```
 9. **セクションページのデザイン**: 
    - セクションタイトルは「セクション名 | 説明」の形式で記述: 例: `## 1. プロジェクト概要 | プロジェクトの基本情報`
