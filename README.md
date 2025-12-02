@@ -182,3 +182,7 @@ CSSの読み込み方法は2通りあります。状況に合わせて選択し�
      ![ロゴ w:400px](https://raw.githubusercontent.com/[ユーザー名]/[リポジトリ名]/main/images/logo.png)
      ```
 
+## 参考サイト
+
+- [【AIスライド作成】クラスメソッド社内用のMarpテーマを作ってみた！](https://dev.classmethod.jp/articles/classmethod-marp-theme/)
+
